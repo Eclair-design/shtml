@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+	<html>
+	<!--#set var="TITLE" value="Info"-->
+	<head>
+	</head>
+	<body>
+		размер файла - <!--#fsize file="ssi.shtml"--> <BR>
+		дата последней модификации файла - <!--#echo var="LAST_MODIFIED"--> <BR>
+		ваш IP адрес - <!--#echo var="REMOTE_ADDR"--> <BR>
+		номер вашего порта - <!--#echo var="REMOTE_PORT"--> <BR>
+		ваш браузер - <!--#echo var="HTTP_USER_AGENT"--> <BR>
+		имя сервера - <!--#echo var="SERVER_NAME"--> <BR>
+		номер порта сервера - <!--#echo var="SERVER_PORT"--> <BR>
+		какой HTTP сервер установлен - <!--#echo var="SERVER_SOFTWARE"--> <BR>
+		протокол, который поддерживает сервер - <!--#echo var="SERVER_PROTOCOL"--> <BR>
+		с какой страницы вы пришли - <!--#echo var="HTTP_REFERER"--> <BR>
+		URI документа - <!--#echo var="DOCUMENT_URI"--> <BR>
+		название файла текущего документа - <!--#echo var="DOCUMENT_NAME"--> <BR>
+	</body>
+	</html>

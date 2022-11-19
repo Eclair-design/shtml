@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<!--#set var="TITLE" value="Redirect" -->
+	<!--#include file="ssi/top.shtml" -->
+  <head>
+    <title>Redirect</title>
+    <META HTTP-EQUIV="refresh" content="10;URL=https://www.kstu.ru">
+  </head>
+  <body>
+    <tr>
+      <td><a href="192.168.0.102/index1.ru">Main page</a></td>
+    </tr>
+    <tr>
+      <br>You will be redirect to kstu.ru 10 seconds</br>
+    </tr>
+  </body>
+</html>

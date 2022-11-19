@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+	<html>
+	<!--#set vat="TITLE" value="Main Page" -->
+	<!--#include file="ssi/top.shtml"-->
+	<body>
+		<table border="1" cellpadding="0" cellspacing="0" width="100%">
+			<tr>
+				<th colspan=2>Лабораторная работа №7</th>
+			</tr>
+			<tr>
+				<th width="20%">Лабораторные работы</th>
+				<th width="80%">Информация о студенте</th>
+			</tr>
+			<tr>
+				<!--#include file="ssi/left.shtml"-->
+				<!--#include file="ssi/right.shtml"-->
+			</tr>
+		</table>
+	</body>
+	</html>
+<head>
+	<META charset="UTF-8">
+	<META HTTP-EQUIV="Content-Language" CONTENT="RU-ru"> 
+	<META NAME="Description" CONTENT="html"> 
+	<META NAME="Keywords" CONTENT="Labwork"> 
+	<META NAME="Author" CONTENT="Yvetln"> 
+	<TITLE> Lab7 </TITLE>
+	<link rel="stylesheet" href="css/main.css">
+</head>
